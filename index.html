@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Goseyn — Applications mobiles</title>
+<meta name="description" content="Goseyn conçoit et publie des applications mobiles simples, rapides et respectueuses de vos données.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23141414'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='38' text-anchor='middle' fill='%23e8ff5a'%3Eg%3C/text%3E%3C/svg%3E">
+<style>
+:root{--bg:#f6f5f1;--fg:#141414;--muted:#5d5d58;--line:#dcdad2;--accent:#3a5a00;--chip:#e8ff5a}
+@media (prefers-color-scheme:dark){:root{--bg:#121211;--fg:#f1f0ea;--muted:#a3a29a;--line:#2b2b28;--accent:#e8ff5a;--chip:#e8ff5a}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg)}
+body{font:17px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-underline-offset:3px}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:28px 0}
+.mark{font-family:Georgia,"Times New Roman",serif;font-size:26px;font-weight:700;letter-spacing:-.5px;text-decoration:none}
+.mark span{background:var(--chip);color:#141414;padding:0 6px;border-radius:6px;margin-left:2px}
+nav a{color:var(--muted);text-decoration:none;font-size:15px;margin-left:18px}
+nav a:hover{color:var(--fg)}
+.hero{padding:72px 0 56px;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin:0 0 18px}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(38px,7vw,66px);line-height:1.05;letter-spacing:-1.5px;margin:0 0 24px}
+h1 em{font-style:italic;color:var(--accent)}
+.lead{font-size:clamp(17px,2.4vw,20px);color:var(--muted);max-width:600px;margin:0}
+section{padding:48px 0;border-bottom:1px solid var(--line)}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);font-weight:600;margin:0 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px}
+.grid h3{font-size:18px;margin:0 0 6px}
+.grid p{margin:0;color:var(--muted);font-size:15.5px}
+.cta{display:inline-block;margin-top:6px;padding:12px 20px;border-radius:999px;background:var(--fg);color:var(--bg);text-decoration:none;font-weight:600;font-size:15px}
+.cta:hover{opacity:.85}
+footer{padding:32px 0 48px;color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:space-between}
+footer nav a{margin:0 18px 0 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="mark" href="/">gose<span>yn</span></a>
+    <nav><a href="#apps">Applications</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <div class="hero">
+    <p class="eyebrow">Développeur d'applications</p>
+    <h1>Des applications <em>simples</em>, rapides et respectueuses de vos données.</h1>
+    <p class="lead">Goseyn conçoit, développe et publie des applications mobiles et web. Chaque application est pensée pour aller à l'essentiel, sans collecte superflue.</p>
+  </div>
+
+  <section id="apps">
+    <h2>Applications</h2>
+    <div class="grid">
+      <div><h3>Sur Google Play</h3><p>Les applications Goseyn sont publiées sur le Google Play Store. Les premières sorties arrivent très bientôt.</p></div>
+      <div><h3>Vie privée d'abord</h3><p>Aucune revente de données. Ce qui est collecté est décrit clairement dans notre <a href="/confidentialite.html">politique de confidentialité</a>.</p></div>
+      <div><h3>Support</h3><p>Une question, un bug, une suggestion&nbsp;? Une réponse humaine, généralement sous 48&nbsp;heures.</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p style="margin:0 0 18px;color:var(--muted)">Pour le support des applications, les demandes relatives à vos données ou toute autre question&nbsp;:</p>
+    <a class="cta" href="mailto:contact@goseyn.com">contact@goseyn.com</a>
+  </section>
+
+  <footer>
+    <nav><a href="/confidentialite.html">Politique de confidentialité</a><a href="/mentions-legales.html">Mentions légales</a></nav>
+    <span>© 2026 Goseyn</span>
+  </footer>
+</div>
+</body>
+</html>
